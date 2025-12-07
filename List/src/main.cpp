@@ -5,3 +5,13 @@ int main() {
     cout << res;
     return 0;
 }
+
+
+int main() {
+    vector<int>ve = { 1,2 };
+    int k = 2;
+    ListNode* ls = to_list(ve);
+    ListNode* res = Solution().rotateRight(ls, k);
+    cout << res;
+    return 0;
+}
