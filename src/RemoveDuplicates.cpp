@@ -14,7 +14,7 @@ public:
                 if (it != map.end()) {
                     pre->next = ls->next;
                     ls->next = NULL;
-                    delete(ls);           //�ͷ�ls�Ŀռ�
+                    delete(ls);           //释放ls所占的空间
                 }
                 else {
                     map[tmp] = i++;
