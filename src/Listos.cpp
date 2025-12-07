@@ -1,4 +1,4 @@
-//Êä³öÁ´±í
+//è¾“å‡ºé“¾è¡¨
 ostream& operator<<(ostream& os, const ListNode* node) {
     const ListNode* current = node;
     os << "["; 
