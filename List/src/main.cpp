@@ -1,4 +1,5 @@
 
+//02.01去除重复节点
 int main() {
     vector<int>ve = { 1, 2, 3, 3, 2, 1 };
     ListNode* ls = to_list(ve);
@@ -7,6 +8,7 @@ int main() {
     return 0;
 }
 
+//61旋转链表
 int main() {
     vector<int>ve = { 1,2 };
     int k = 2;
@@ -24,3 +26,4 @@ int main() {
     cout << res;
     return 0;
 }
+
