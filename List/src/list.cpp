@@ -76,7 +76,8 @@ public:
         return fhead->next;
     }
 };
-
+。
+//86.1，构建两个新链表
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
@@ -86,8 +87,7 @@ public:
         while (head) {
             if (head->val < x) {
                 mi->next = head;
-                mi = mi->next;
-
+                mi = mi->next；
             }
             else {
                 ma->next = head;
@@ -98,11 +98,10 @@ public:
         }
         ma->next = NULL;
         mi->next = maxlis->next;
-
         return minlis->next;
     }
 };
-
+//86.2在原链表上移动节点
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
@@ -127,7 +126,6 @@ public:
                 upper = upper->next;
             }
             else lower = lower->next;
-
         }
         return fhead->next;
     }
