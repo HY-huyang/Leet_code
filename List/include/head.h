@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+
 #include<iostream>
 #include<list>
 #include<vector>

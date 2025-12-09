@@ -27,3 +27,11 @@ int main() {
     return 0;
 }
 
+int main() {
+    vector<int>ve = { 1,4,3,0,2,5,2 };
+    int k = 3;
+    ListNode* ls = to_list(ve);
+    ListNode* res = Solution().partition(ls, k);
+    cout << res;
+    return 0;
+}
