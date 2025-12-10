@@ -77,7 +77,7 @@ public:
     }
 };
 。
-//86.1，构建两个新链表
+//86_1，构建两个新链表
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
@@ -101,7 +101,7 @@ public:
         return minlis->next;
     }
 };
-//86.2在原链表上移动节点
+//86_2在原链表上移动节点
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
