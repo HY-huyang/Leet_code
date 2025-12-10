@@ -12,6 +12,7 @@ ostream& operator<<(ostream& os, const ListNode* node) {
     os << "]";
     return os;
 }
+
 // cout<< vector
 template<typename T>
 ostream& operator << (ostream& os, const vector<T>& num) {
