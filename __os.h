@@ -1,4 +1,4 @@
-// cout<<list
+// cout<< list
 ostream& operator<<(ostream& os, const ListNode* node) {
     const ListNode* current = node;
     os << "[";
@@ -12,7 +12,7 @@ ostream& operator<<(ostream& os, const ListNode* node) {
     os << "]";
     return os;
 }
-// cout<<vector
+// cout<< vector
 template<typename T>
 ostream& operator << (ostream& os, const vector<T>& num) {
     os << '[';
