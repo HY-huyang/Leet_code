@@ -5,7 +5,7 @@ public:
         queue<TreeNode*>qe;
         if (root)qe.push(root);
         while (!qe.empty()) {
-            int qe_len = qe.size();         //记录这一层的节点数
+            int qe_len = qe.size();         //璁板綍鎵�鍦ㄥ眰鐨勮妭鐐规暟
             vector<int>vec;
             for (int i = 0; i < qe_len; i++) {
                 TreeNode* node = qe.front();
