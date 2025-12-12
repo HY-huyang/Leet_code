@@ -7,6 +7,7 @@ struct TreeNode {
     TreeNode(int x, TreeNode* left, TreeNode* right) : val(x), left(left), right(right) {}
 };
 
+//optional支持c++17
 TreeNode* to_tree(const vector<optional<int>>& v) {
     int n = v.size();
     if (n == 0) {
