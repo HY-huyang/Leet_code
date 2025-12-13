@@ -6,7 +6,7 @@ struct ListNode {
     ListNode(int x, ListNode* next) : val(x), next(next) {}
 };
 
-// µ¥Á´±í
+// å•é“¾è¡¨
 ListNode* to_list(const vector<int>num) {
     int len = static_cast<int>(num.size());
     if (len == 0)return NULL;
@@ -20,7 +20,7 @@ ListNode* to_list(const vector<int>num) {
     return head;
 }
 
-// pos½ÚµãµÄÑ­»·Á´±í
+// posèŠ‚ç‚¹çš„å¾ªç¯é“¾è¡¨
 ListNode* to_list(const vector<int>& num, int pos) {
     int len = static_cast<int>(num.size());
     if (len == 0) return nullptr;
