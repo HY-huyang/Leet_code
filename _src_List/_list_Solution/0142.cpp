@@ -14,7 +14,7 @@ public:
     }
 };
 
-// ¿ìÂıÖ¸Õë
+// å¿«æ…¢æŒ‡é’ˆ
 class Solution {
 public:
     ListNode* detectCycle(ListNode* head) {
