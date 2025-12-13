@@ -79,3 +79,12 @@ int main() {
     Solution().detectCycle(ls);
     return 0;
 }
+
+// 0328 奇偶链表
+int main() {
+    vector<int>ve = { 1,2,3,4,5 };
+    ListNode* ls = to_list(ve);
+    ListNode* res = Solution().oddEvenList(ls);
+    cout << res;
+    return 0;
+}
