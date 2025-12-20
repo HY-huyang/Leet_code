@@ -11,7 +11,6 @@ public:
                 las->next = las->next->next;
                 head->next->next = itm;
                 head = head->next;
-
             }
             else {
                 las = las->next;
