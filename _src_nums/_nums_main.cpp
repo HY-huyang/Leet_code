@@ -12,3 +12,10 @@ int main() {
     int k = 1;
     cout << Solution().threeSumClosest(num, k);
 }
+
+// 0027 ÒÆ³ıÔªËØ
+int main() {
+    vector<int>num = { 0,1,2,2,3,0,4,2 };
+    int k = 2;
+    cout << Solution().removeElement(num, k);
+}
