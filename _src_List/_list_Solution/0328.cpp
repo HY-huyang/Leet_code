@@ -22,6 +22,6 @@ public:
     }
 };
 
-// 2 创建两个新节点，ListNode* odd_node,后面跟head的奇数节点
-                    ListNode* even_node，后面跟head的偶数节点
-最后将两个新链表合并
+ /*2 创建两个新节点，ListNode* odd_node,后面跟head的奇数节点
+                     ListNode* even_node，后面跟head的偶数节点
+最后将两个新链表合并*/
