@@ -23,3 +23,20 @@ int main() {
     Solution().hasPathSum(tree, k);
     return 0;
 }
+
+// 0100 相同的树
+int main() {
+    vector<optional<int>>vec = { };
+    TreeNode* tree = to_tree(vec);
+    TreeNode* t = to_tree(vec);
+    cout << Solution().isSameTree(tree, t);
+    return 0;
+}
+
+// 0099 恢复二树
+int main() {
+    vector<optional<int>>vec = { 1,3,nullopt,nullopt,2 };
+    TreeNode* tree = to_tree(vec);
+    Solution().recoverTree(tree);
+    return 0;
+}
